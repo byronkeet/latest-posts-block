@@ -1,0 +1,14 @@
+{
+    "name": "byronkeet/block-boilerplate",
+    "type": "wordpress-plugin",
+    "description": "A complete ecommerce solution in a single block.",
+    "homepage": "https://github.com/byronkeet/block-boilerplate/",
+    "license": "GPL-2.0",
+    "require-dev": {
+        "phpcompatibility/phpcompatibility-wp": "^2.1",
+        "wp-coding-standards/wpcs": "^2.3"
+    },
+    "scripts": {
+      "post-install-cmd": "vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs,vendor/phpcompatibility/phpcompatibility-wp,vendor/phpcompatibility/php-compatibility,vendor/phpcompatibility/phpcompatibility-paragonie"
+    }
+}
