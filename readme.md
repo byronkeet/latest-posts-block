@@ -22,3 +22,14 @@ GPLv3
 
 - Use to build production code for your block inside `build` folder.
 - Runs once and reports back the gzip file sizes of the produced code.
+
+### To clone and work in new repo
+
+- Clone repo into new folder on pc.
+- CD into new folder
+- Create new repo in github.
+- Copy link.
+- git remote rename origin upstream.
+- git remote add origin <new repo link>.
+- git remote -v. Should be origin and upstream.
+- git push -u origin main
