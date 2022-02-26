@@ -1,11 +1,3 @@
 {
-	"root": true,
-	"parser": "@babel/eslint-parser",
-	"parserOptions": {
-	  "sourceType": "module",
-	  "babelOptions": {
-		"configFile": "/Users/byronkeet/Local Sites/test/app/public/wp-content/plugins/block-boilerplate/.babelrc"
-	  }
-	},
 	"extends": [ "plugin:@wordpress/eslint-plugin/recommended-with-formatting" ]
   }
